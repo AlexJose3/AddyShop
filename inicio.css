@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(Imagenes/inicio.jpg);
+}
+header {
+    padding: 15px 0;
+    position: absolute;
+    top: 20px;
+    left: 110vh;
+}
+
+.home, .catalogo, .carrito {
+    font-family: 'Afacad Flux';
+    display: inline;
+}
+
+.catalogo{
+    position: absolute;
+    left: 160px;
+}
+.home  {
+    position: absolute;
+    left: 100px;
+}
+
+.carrito {
+    position: absolute;
+
+}
+
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+main {
+    padding: 20px;
+}
+.inicio, .registro {
+    font-family: 'Afacad Flux';
+    text-decoration: none;
+    padding: 1px;
+    border: 1px solid purple;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.inicio {
+    left: 55vh;
+}
+
+.registro {
+    left: 70vh;
+}
+
+
+.addy {
+    font-family: 'Afacad';
+    position: absolute;
+    font-size: 80px;
+    top: -6px;
+    left: 50px;
+    font-weight: lighter;
+    color: #fff;
+}
+
+.shop {
+    font-family: 'Afacad';
+    position: absolute;
+    font-size: 50px;
+    top: 14px;
+    left: 219px;
+    font-weight: lighter;
+    color: #fff;
+}
+
+.carrito {
+    color: white;
+    font-size: 20px;
+    margin: 0 30px;
+    text-decoration: none;
+    left: 40vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-container {
+    padding: 20px;
+    border-radius: 0px;
+    max-width: 300px;
+    width: 100%;
+    position: absolute;
+    right: 180px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+h2 {
+    font-family: 'Afacad Flux';
+    text-align: center;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #000000;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    opacity: 50%;
+}
+
+.btn:hover {
+    background-color: #616161;
+}
+.redes {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 90vh;
+    left: 138vh;
+    width: 200px;
+}
+
+.whatsapp, .facebook, .instagram {
+    color: #fff;
+    font-size: 20px; 
+}
